@@ -1,6 +1,6 @@
 # 📊 Marketing Dashboard Project
 
-This project is a **Marketing Intelligence Dashboard** built with **Streamlit**, **Pandas**, and **Plotly**.  
+This project is a **Marketing Intelligence Dashboard** built with **Streamlit**, **Pandas**, and **Plotly**.
 It helps marketers and business teams understand how their ad spend connects to revenue, customers, and efficiency metrics.
 
 ---
@@ -18,21 +18,22 @@ It helps marketers and business teams understand how their ad spend connects to 
 
 ## 📂 Project Structure
 
+```text
 data/
-├── raw/ <- put your raw CSV files here (Facebook.csv, Google.csv, TikTok.csv, Business.csv)
-├── cleaned/ <- processed & aggregated data lives here (created by scripts)
-└── figures/ <- exported charts and anomaly reports (optional)
+├── raw/             <- put your raw CSV files here (Facebook.csv, Google.csv, TikTok.csv, Business.csv)
+├── cleaned/         <- processed & aggregated data lives here (created by scripts)
+└── figures/         <- exported charts and anomaly reports (optional)
 
 notebook/
-└── 04_EDA.ipynb <- for data exploration (Jupyter Notebook)
+└── 04_EDA.ipynb     <- for data exploration (Jupyter Notebook)
 
 scripts/
-├── 01_clean.py <- cleans raw files (removes duplicates, fixes dates, normalizes columns)
-├── 02_aggregate.py <- aggregates cleaned data into daily totals, channel summaries, etc.
-└── 03_metrics.py <- computes derived metrics (ROAS, CAC, AOV, etc.)
+├── 01_clean.py      <- cleans raw files (removes duplicates, fixes dates, normalizes columns)
+├── 02_aggregate.py  <- aggregates cleaned data into daily totals, channel summaries, etc.
+└── 03_metrics.py    <- computes derived metrics (ROAS, CAC, AOV, etc.)
 
 src/app/
-└── dashboard.py <- the main Streamlit dashboard
+└── dashboard.py     <- the main Streamlit dashboard
 
-venv/ <- your Python virtual environment (ignored in Git)
-requirements.txt <- Python dependencies
+venv/                <- your Python virtual environment (ignored in Git)
+requirements.txt     <- Python dependencies
