@@ -1,0 +1,21 @@
+# virtual envs
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# streamlit local
+.streamlit/
+
+# data (keep small samples only)
+data/raw/
+data/cleaned/
+data/figures/
