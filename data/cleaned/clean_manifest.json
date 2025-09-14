@@ -1,0 +1,46 @@
+{
+  "facebook": {
+    "rows": 1200,
+    "cols": 9,
+    "csv": "D:\\marketing_dashboard_project\\data\\cleaned\\facebook_cleaned.csv",
+    "parquet": "D:\\marketing_dashboard_project\\data\\cleaned\\facebook_cleaned.parquet",
+    "date_min": "2025-05-16",
+    "date_max": "2025-09-12",
+    "invalid_dates": 0,
+    "negatives": {},
+    "duplicates": 0
+  },
+  "google": {
+    "rows": 1200,
+    "cols": 9,
+    "csv": "D:\\marketing_dashboard_project\\data\\cleaned\\google_cleaned.csv",
+    "parquet": "D:\\marketing_dashboard_project\\data\\cleaned\\google_cleaned.parquet",
+    "date_min": "2025-05-16",
+    "date_max": "2025-09-12",
+    "invalid_dates": 0,
+    "negatives": {},
+    "duplicates": 0
+  },
+  "tiktok": {
+    "rows": 1200,
+    "cols": 9,
+    "csv": "D:\\marketing_dashboard_project\\data\\cleaned\\tiktok_cleaned.csv",
+    "parquet": "D:\\marketing_dashboard_project\\data\\cleaned\\tiktok_cleaned.parquet",
+    "date_min": "2025-05-16",
+    "date_max": "2025-09-12",
+    "invalid_dates": 0,
+    "negatives": {},
+    "duplicates": 0
+  },
+  "business": {
+    "rows": 120,
+    "cols": 7,
+    "csv": "D:\\marketing_dashboard_project\\data\\cleaned\\business_cleaned.csv",
+    "parquet": "D:\\marketing_dashboard_project\\data\\cleaned\\business_cleaned.parquet",
+    "date_min": "2025-05-16",
+    "date_max": "2025-09-12",
+    "invalid_dates": 0,
+    "negatives": {},
+    "duplicates": null
+  }
+}

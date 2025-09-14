@@ -1,0 +1,14 @@
+{
+  "daily_channel": {
+    "rows": 360
+  },
+  "daily_total": {
+    "rows": 120
+  },
+  "campaign_agg": {
+    "rows": 30
+  },
+  "state_agg": {
+    "rows": 2
+  }
+}

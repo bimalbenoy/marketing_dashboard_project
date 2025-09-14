@@ -1,0 +1,14 @@
+{
+  "metrics_daily_channel": {
+    "rows": 360
+  },
+  "metrics_daily_total": {
+    "rows": 120
+  },
+  "campaign_metrics": {
+    "rows": 30
+  },
+  "state_metrics": {
+    "rows": 2
+  }
+}

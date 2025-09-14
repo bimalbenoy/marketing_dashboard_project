@@ -17,5 +17,3 @@ Thumbs.db
 
 # data (keep small samples only)
 data/raw/
-data/cleaned/
-data/figures/
