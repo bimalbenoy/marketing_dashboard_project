@@ -1,22 +1,4 @@
-#!/usr/bin/env python3
-"""
-scripts/01_clean.py — Improved cleaning pipeline
 
-Usage:
-    python scripts/01_clean.py \
-        --raw-dir data/raw \
-        --out-dir data/cleaned \
-        --fail-on-errors  # optional, default = False
-
-What it does (high level):
-- Reads Facebook.csv / Google.csv / TikTok.csv / Business.csv from raw dir
-- Normalizes column names, parses dates, coerces numerics
-- Detects & aggregates duplicate campaign-date-state rows
-- Detects invalid dates, negative values and logs findings
-- Writes cleaned CSV and Parquet outputs to out-dir
-- Writes clean_manifest.json and validation_report.txt
-- Optionally performs Pandera validation if pandera is installed
-"""
 
 import argparse
 import json
