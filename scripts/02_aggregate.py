@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-scripts/02_aggregate.py
 
 Aggregates cleaned marketing & business data into:
  - daily_channel (date x channel) totals
@@ -8,8 +7,6 @@ Aggregates cleaned marketing & business data into:
  - campaign_agg (campaign-level totals across the period)
  - state_agg (state-level totals across period)
 
-Usage:
-    python scripts/02_aggregate.py --cleaned-dir data/cleaned --out-dir data/cleaned
 
 Outputs (written to out-dir):
     - daily_channel.csv / .parquet
